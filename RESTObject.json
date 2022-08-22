@@ -1,0 +1,31 @@
+{
+  "properties": [
+    {
+      "name": "operation",
+      "description": "The HTTP operation",
+      "examples": [
+        "GET",
+        "POST"
+      ]
+    },
+    {
+      "name": "endpoint",
+      "description": "The full url to put the request to",
+      "examples": [
+        "https://api.scryfall.com/cards/named"
+      ]
+    },
+    {
+      "name": "params",
+      "description": "The query parameters to be sent in the form of a key:value JSON object"
+    },
+    {
+      "name": "headers",
+      "description": "HTTP headers for the request in the form of a key:value JSON object"
+    },
+    {
+      "name": "payload",
+      "description": "Payload string"
+    },
+  ]
+}
