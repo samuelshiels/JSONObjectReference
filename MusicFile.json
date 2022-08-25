@@ -1,0 +1,22 @@
+{
+    "extendedFrom":"File",
+    "properties":[
+        {
+            "name": "tags",
+            "description": "Representation of tags from the audio file, indepedent of if they are APE or IDv3 etc",
+            "type": "object",
+            "examples": [
+              "{'album':'The Red in the Skies is ours','albumartist':'At The Gates'}"
+            ]
+        },
+        {
+            "name": "artwork",
+            "description": "Picture data of the embedded album artwork from the tags",
+            "type": "array",
+            "schema":"Image",
+            "examples": [
+              "[{'type':'front':'data':'XXXXXXXXXXX'}]"
+            ]
+        }
+    ]
+}

@@ -3,6 +3,7 @@
     {
       "name": "errorCode",
       "description": "A short string code description of an error, can be an HTTP response code, Exception name or a custom crafted code",
+      "type":"string",
       "examples": [
         "404",
         "json.decoder.JSONDecodeError"
@@ -11,6 +12,7 @@
     {
       "name": "errorDescription",
       "description": "Long error message relating to the code, can be the text representation of a number code, code stack or log dump",
+      "type":"string",
       "examples": [
         "File not found",
         "Unterminated string starting at: line 1 column 14 (char 13)"

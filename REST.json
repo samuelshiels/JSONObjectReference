@@ -3,6 +3,7 @@
     {
       "name": "operation",
       "description": "The HTTP operation",
+      "type":"string",
       "examples": [
         "GET",
         "POST"
@@ -11,21 +12,25 @@
     {
       "name": "endpoint",
       "description": "The full url to put the request to",
+      "type":"string",
       "examples": [
         "https://api.scryfall.com/cards/named"
       ]
     },
     {
       "name": "params",
-      "description": "The query parameters to be sent in the form of a key:value JSON object"
+      "description": "The query parameters to be sent in the form of a key:value JSON object",
+      "type":"object"
     },
     {
       "name": "headers",
-      "description": "HTTP headers for the request in the form of a key:value JSON object"
+      "description": "HTTP headers for the request in the form of a key:value JSON object",
+      "type":"object"
     },
     {
       "name": "payload",
-      "description": "Payload string"
-    },
+      "description": "Payload string",
+      "type":"string"
+    }
   ]
 }

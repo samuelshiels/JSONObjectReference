@@ -1,2 +1,30 @@
 {
+    "properties": [
+        {
+            "name": "path",
+            "description": "File path, can be absolute or relative",
+            "type": "string",
+            "examples": [
+              "/home/user/",
+              "cache/"
+            ]
+        },
+        {
+            "name": "fileName",
+            "description": "Exact name of the file including extension",
+            "type": "string",
+            "examples": [
+              ".bashrc",
+              "setup.exe"
+            ]
+        },
+        {
+            "name": "fileType",
+            "description": "Full type of the file, not necessarily what the extension says",
+            "type": "string",
+            "examples": [
+              "text/plain"
+            ]
+        }
+    ]
 }
