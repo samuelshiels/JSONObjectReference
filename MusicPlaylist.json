@@ -1,0 +1,15 @@
+{
+    "properties":[
+        {
+            "name": "files",
+            "description": "Collection of MusicFile objects that make up the playlist",
+            "type": "array",
+            "schema":"MusicFile"
+        },
+        {
+            "name":"name",
+            "description": "Title of the playlist",
+            "type": "string"
+        }
+    ]
+}
