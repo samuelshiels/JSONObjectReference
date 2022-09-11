@@ -11,3 +11,5 @@ class MusicFile(f):
         self.__dict__.update(kwargs)
     def __str__(self) -> str:
         return f"{self.fileName} {self.path} {self.tags}"
+    def __repr__(self) -> str:
+        return f"{self.fileName} {self.path} {self.tags}"
