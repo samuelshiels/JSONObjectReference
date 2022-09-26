@@ -1,0 +1,27 @@
+{
+    "properties":[
+        {
+            "name": "display",
+            "description": "Value from the record defined as a display value or title",
+            "type": "string"
+        },
+        {
+            "name":"primaryFields",
+            "description": "An array of fields designated as important data from each record, used for displaying on a form or list",
+            "type": "array",
+            "schema": "Key/Value"
+        },
+        {
+            "name":"secondaryFields",
+            "description": "An array of fields designated as less important data from each record",
+            "type": "array",
+            "schema": "Key/Value"
+        },
+        {
+            "name": "children",
+            "description": "Child records",
+            "type": "array",
+            "schema":"ServiceNowRecord"
+        }
+    ]
+}
